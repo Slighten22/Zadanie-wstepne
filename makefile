@@ -1,7 +1,7 @@
 all: projekt
 projekt: main.o
-	gcc -o projekt main.o
+	gcc -o main main.o
 clean:
-	rm -rf *o build
+	rm -r main.o
 
 
